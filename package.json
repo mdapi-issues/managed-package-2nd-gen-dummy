@@ -36,13 +36,9 @@
     ],
     "plugins": [
       [
-        "semantic-release-sfdx",
-        {
-          "username": "devhub"
-        }
+        "semantic-release-sfdx"
       ]
-    ],
-    "verifyConditions": false
+    ]
   },
   "lint-staged": {
     "**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}": [
