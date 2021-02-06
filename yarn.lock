@@ -1360,14 +1360,7 @@ axios@^0.19.2:
   dependencies:
     follow-redirects "1.5.10"
 
-axios@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.20.0.tgz#057ba30f04884694993a8cd07fa394cff11c50bd"
-  integrity sha512-ANA4rr2BDcmmAQLOKft2fufrtuvlqR+cXNNinUmvfeSNCOF98PZL+7M/v1zIdGo7OLjEA9J2gXJL+j4zGsl0bA==
-  dependencies:
-    follow-redirects "^1.10.0"
-
-axios@^0.21.1:
+axios@^0.21.0, axios@^0.21.1:
   version "0.21.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
   integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
@@ -5644,14 +5637,14 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-prettier-plugin-apex@1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-apex/-/prettier-plugin-apex-1.7.0.tgz#af28cd4531fe24a6c98e48d03dc9fa51f60cef4f"
-  integrity sha512-K+8AVkM6q0Tvy+4QE95YSarjkGQe8hT0LgpttkXhV7kPzdMdoIIx6Y9fjeenDPEVwU6k2mEns37xlSdOOphYZA==
+prettier-plugin-apex@1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-apex/-/prettier-plugin-apex-1.8.0.tgz#986f120cf3ff2ea9b843d9c4043264a28e8c65c9"
+  integrity sha512-q5gMbL8euYFZ5xg10HM6BWBOn86lPP2QDUqvGVzGhXQFUqCznh4/eqKMy9O/DZ2sHDibZtoNqrMi5KpGBHqjWw==
   dependencies:
-    axios "^0.20.0"
+    axios "^0.21.0"
     jest-docblock "^26.0.0"
-    wait-on "^5.0.0"
+    wait-on "^5.2.1"
     yargs "^16.0.2"
 
 prettier@2.2.1, prettier@>=1.10:
@@ -7193,7 +7186,7 @@ vinyl@^2.0.1, vinyl@^2.2.0, vinyl@^2.2.1:
     remove-trailing-separator "^1.0.1"
     replace-ext "^1.0.0"
 
-wait-on@^5.0.0:
+wait-on@^5.2.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/wait-on/-/wait-on-5.2.1.tgz#05b66fcb4d7f5da01537f03e7cf96e8836422996"
   integrity sha512-H2F986kNWMU9hKlI9l/ppO6tN8ZSJd35yBljMLa1/vjzWP++Qh6aXyt77/u7ySJFZQqBtQxnvm/xgG48AObXcw==
