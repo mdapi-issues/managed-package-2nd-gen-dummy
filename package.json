@@ -23,7 +23,7 @@
     "lint-staged": "10.5.3",
     "prettier": "2.2.1",
     "prettier-plugin-apex": "1.7.0",
-    "sfdx-cli": "7.82.1-0"
+    "sfdx-cli": "7.86.3"
   },
   "husky": {
     "hooks": {
