@@ -22,7 +22,7 @@
     "husky": "5.0.9",
     "lint-staged": "10.5.3",
     "prettier": "2.2.1",
-    "prettier-plugin-apex": "1.7.0",
+    "prettier-plugin-apex": "1.8.0",
     "sfdx-cli": "7.86.3"
   },
   "husky": {
