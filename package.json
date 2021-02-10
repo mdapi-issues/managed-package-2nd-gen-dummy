@@ -20,7 +20,7 @@
     "eslint": "7.19.0",
     "eslint-config-prettier": "7.1.0",
     "husky": "5.0.9",
-    "lint-staged": "10.5.3",
+    "lint-staged": "10.5.4",
     "prettier": "2.2.1",
     "prettier-plugin-apex": "1.8.0",
     "sfdx-cli": "7.86.3"
