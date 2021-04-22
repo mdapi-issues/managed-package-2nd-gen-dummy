@@ -5367,10 +5367,10 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-prettier-plugin-apex@1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-apex/-/prettier-plugin-apex-1.8.0.tgz#986f120cf3ff2ea9b843d9c4043264a28e8c65c9"
-  integrity sha512-q5gMbL8euYFZ5xg10HM6BWBOn86lPP2QDUqvGVzGhXQFUqCznh4/eqKMy9O/DZ2sHDibZtoNqrMi5KpGBHqjWw==
+prettier-plugin-apex@1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-apex/-/prettier-plugin-apex-1.9.0.tgz#67e6f6c5a871d60f2827724fbb8fe6e84990deeb"
+  integrity sha512-hImY1wmUXbnfr3zZ4MyEW5n6YYzCPYOu68K27oEaIcn87odSYuXkvcL/pWhiF3chr8/abuht0b3aCrmP6E9KNw==
   dependencies:
     axios "^0.21.0"
     jest-docblock "^26.0.0"
