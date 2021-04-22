@@ -5,9 +5,6 @@
   "description": "Dummy Package 2nd gen",
   "scripts": {
     "develop": "bash scripts/develop.sh",
-    "lint": "npm run lint:lwc && npm run lint:aura",
-    "lint:aura": "eslint **/aura/**",
-    "lint:lwc": "eslint **/lwc/**",
     "test": "npm run test:apex",
     "test:apex": "sfdx force:apex:test:run -l RunLocalTests -r human --verbose -c",
     "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
@@ -15,9 +12,6 @@
   },
   "devDependencies": {
     "@prettier/plugin-xml": "0.13.0",
-    "@salesforce/eslint-config-lwc": "0.9.0",
-    "eslint": "7.20.0",
-    "eslint-config-prettier": "7.2.0",
     "prettier": "2.2.1",
     "prettier-plugin-apex": "1.9.0",
     "sfdx-cli": "7.86.3"
