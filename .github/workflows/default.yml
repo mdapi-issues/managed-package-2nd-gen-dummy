@@ -33,9 +33,7 @@ jobs:
         run: |
           npx sfdx force:org:delete -p
       - name: Release package
-        run: |
-          yarn add -D git+https://github.com/amtrack/semantic-release-sfdx.git#fixes
-          npx semantic-release
+        run: npx -p semantic-release-sfdx -p semantic-release semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SFDX_AUTH_URL_DEVHUB: ${{ secrets.SFDX_AUTH_URL_DEVHUB }}
