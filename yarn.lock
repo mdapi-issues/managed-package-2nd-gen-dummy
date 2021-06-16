@@ -3686,10 +3686,10 @@ jake@^10.6.1:
     filelist "^1.0.1"
     minimatch "^3.0.4"
 
-jest-docblock@^26.0.0:
-  version "26.0.0"
-  resolved "https://registry.yarnpkg.com/jest-docblock/-/jest-docblock-26.0.0.tgz#3e2fa20899fc928cb13bd0ff68bd3711a36889b5"
-  integrity sha512-RDZ4Iz3QbtRWycd8bUEPxQsTlYazfYn/h5R65Fc6gOfwozFhoImx+affzky/FFBuqISPTqjXomoIGJVKBWoo0w==
+jest-docblock@^27.0.1:
+  version "27.0.1"
+  resolved "https://registry.yarnpkg.com/jest-docblock/-/jest-docblock-27.0.1.tgz#bd9752819b49fa4fab1a50b73eb58c653b962e8b"
+  integrity sha512-TA4+21s3oebURc7VgFV4r7ltdIJ5rtBH1E3Tbovcg7AV+oLfD5DcJ2V2vJ5zFA9sL5CFd/d2D6IpsAeSheEdrA==
   dependencies:
     detect-newline "^3.0.0"
 
@@ -4913,15 +4913,15 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-prettier-plugin-apex@1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-apex/-/prettier-plugin-apex-1.9.0.tgz#67e6f6c5a871d60f2827724fbb8fe6e84990deeb"
-  integrity sha512-hImY1wmUXbnfr3zZ4MyEW5n6YYzCPYOu68K27oEaIcn87odSYuXkvcL/pWhiF3chr8/abuht0b3aCrmP6E9KNw==
+prettier-plugin-apex@1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-apex/-/prettier-plugin-apex-1.10.0.tgz#c125ec04afbe0f7c70e6b64359fc73c9af89a3ba"
+  integrity sha512-Kh6kMNq5IfCxlP49wsZbt2Pq/dx4zbwbEdjUcP9GCmXfRLGuoa6mrT26kIv8TJnEjFCPVzUjg1u0qa3qBStLmQ==
   dependencies:
     axios "^0.21.0"
-    jest-docblock "^26.0.0"
+    jest-docblock "^27.0.1"
     wait-on "^5.2.1"
-    yargs "^16.0.2"
+    yargs "^17.0.0"
 
 prettier@2.3.0:
   version "2.3.0"
@@ -6566,10 +6566,10 @@ yargs@^15.3.1:
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
 
-yargs@^16.0.2:
-  version "16.2.0"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-16.2.0.tgz#1c82bf0f6b6a66eafce7ef30e376f49a12477f66"
-  integrity sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==
+yargs@^17.0.0:
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.0.1.tgz#6a1ced4ed5ee0b388010ba9fd67af83b9362e0bb"
+  integrity sha512-xBBulfCc8Y6gLFcrPvtqKz9hz8SO0l1Ni8GgDekvBX2ro0HRQImDGnikfc33cgzcYUSncapnNcZDjVFIH3f6KQ==
   dependencies:
     cliui "^7.0.2"
     escalade "^3.1.1"
