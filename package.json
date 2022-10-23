@@ -13,7 +13,7 @@
   "devDependencies": {
     "@prettier/plugin-xml": "0.13.0",
     "prettier": "2.7.1",
-    "prettier-plugin-apex": "1.9.0",
+    "prettier-plugin-apex": "1.10.0",
     "sfdx-cli": "7.173.0"
   },
   "release": {
