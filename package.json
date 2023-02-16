@@ -14,7 +14,7 @@
     "@prettier/plugin-xml": "2.2.0",
     "prettier": "2.7.1",
     "prettier-plugin-apex": "1.11.0",
-    "sfdx-cli": "7.181.1"
+    "sfdx-cli": "7.188.1"
   },
   "release": {
     "branches": [
