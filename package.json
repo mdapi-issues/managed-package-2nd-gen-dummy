@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "bash scripts/develop.sh",
     "test": "npm run test:apex",
-    "test:apex": "sfdx force:apex:test:run -l RunLocalTests -r human --verbose -c",
+    "test:apex": "sfdx force:apex:test:run -l RunLocalTests -r human -c",
     "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "prettier:verify": "prettier --list-different \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\""
   },
