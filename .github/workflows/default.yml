@@ -19,17 +19,19 @@ jobs:
         with:
           node-version: 18
       - name: Install dependencies
-        run: yarn
+        run: |
+          yarn install
+          yarn global add @salesforce/cli
       - name: Authenticate DevHub and create scratch org
         run: |
-          npx sfdx org login sfdx-url -a devhub -d -f <(echo "${{ secrets.SFDX_AUTH_URL_DEVHUB }}")
+          sf org login sfdx-url -a devhub -d -f <(echo "${{ secrets.SFDX_AUTH_URL_DEVHUB }}")
           yarn develop
       - name: Run unit tests
         run: yarn test
       - name: Delete scratch org
         if: always()
         run: |
-          npx sfdx force:org:delete -p
+          sf org delete scratch -p
       - name: Release package
         run: npx -p semantic-release-sfdx -p semantic-release semantic-release
         env:
