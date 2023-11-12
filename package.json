@@ -11,7 +11,7 @@
     "prettier:verify": "prettier --list-different \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\""
   },
   "devDependencies": {
-    "@prettier/plugin-xml": "2.2.0",
+    "@prettier/plugin-xml": "3.2.2",
     "prettier": "3.0.3",
     "prettier-plugin-apex": "1.13.0"
   },
