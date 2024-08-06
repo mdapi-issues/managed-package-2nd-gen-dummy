@@ -4,12 +4,12 @@
       "path": "force-app",
       "default": true,
       "package": "Dummy Package 2nd gen",
-      "versionNumber": "0.0.0-development"
+      "versionNumber": "1.1.0.NEXT"
     }
   ],
   "namespace": "mdapidummy2gen",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "59.0",
+  "sourceApiVersion": "61.0",
   "packageAliases": {
     "Dummy Package 2nd gen": "0Ho4x000000TN4xCAG"
   }
