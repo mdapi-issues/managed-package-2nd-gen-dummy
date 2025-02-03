@@ -13,6 +13,6 @@
   "devDependencies": {
     "@prettier/plugin-xml": "3.4.1",
     "prettier": "3.4.2",
-    "prettier-plugin-apex": "2.2.2"
+    "prettier-plugin-apex": "2.2.3"
   }
 }
